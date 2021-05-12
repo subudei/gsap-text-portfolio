@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Teko:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+.hero__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vh;
+  height: 70vh;
+  background-color: #3d3d3d;
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.hero__container .hello__div {
+  width: 100%;
+  height: 40vh;
+  background-color: #332d6d;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero__container .hello__div .h__drop {
+  background-color: #e71616;
+  width: 2.5vh;
+  height: 2.5vh;
+  position: absolute;
+  top: 5vh;
+  opacity: 0;
+}
+
+.hero__container .hello__div .h__letter {
+  position: absolute;
+  bottom: 0;
+  left: 15vh;
+  font-family: "Teko", sans-serif;
+  font-size: 15vh;
+  font-weight: 600;
+  line-height: 0.6;
+  color: #e71616;
+  opacity: 0;
+}
+
+.hero__container .hello__div .i__drop {
+  position: absolute;
+  top: 0;
+  left: 25vh;
+  width: 1.3vh;
+  height: 1.3vh;
+  border-radius: 50%;
+  border: 0.5vh solid white;
+  opacity: 0;
+}
+
+.hero__container .hello__div .i__letter {
+  position: absolute;
+  left: 25vh;
+  bottom: -10vh;
+  height: 7vh;
+  width: 2.1vh;
+  background-color: #e71616;
+}
+
+.hero__container .hello__div .i__dev {
+  position: absolute;
+  bottom: -15vh;
+  left: 15vh;
+  font-size: 15vh;
+  font-weight: 600;
+  line-height: 0.9;
+  color: #e71616;
+  opacity: 0;
+}
+
+.hero__container .hello__div .m__dev {
+  position: absolute;
+  left: 1vh;
+  bottom: 0;
+  font-size: 14vh;
+  font-weight: 600;
+  line-height: 0.9;
+  color: #e71616;
+  opacity: 0;
+}
+
+.hero__container .hello__div .paravan__box {
+  position: absolute;
+  bottom: 0;
+  left: 0.6vh;
+  background-color: #332d6d;
+  z-index: 5;
+}
+
+.hero__container .hello__div .a__dev {
+  position: absolute;
+  left: 38vh;
+  bottom: 0;
+  font-size: 14vh;
+  font-weight: 600;
+  line-height: 0.9;
+  color: #e71616;
+  opacity: 0;
+}
+
+.hero__container .hello__div .web__box {
+  position: absolute;
+  right: -8vh;
+  bottom: 0.5vh;
+  width: 10vh;
+  height: 3vh;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 1vh;
+}
+
+.hero__container .hello__div .web__dev {
+  position: absolute;
+  bottom: 0;
+  left: 110vh;
+  font-size: 13.5vh;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 0.9;
+  color: rgba(255, 255, 255, 0.3);
+}
+/*# sourceMappingURL=hero1.styles.css.map */
