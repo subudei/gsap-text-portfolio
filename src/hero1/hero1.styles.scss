@@ -115,10 +115,90 @@
       color: rgba(255, 255, 255, 0.3);
     }
   }
-  // .message__div {
-  //   width: 40%;
-  //   height: 32vh;
-  //   // background-color: rgb(51, 45, 109);
-  //   overflow: hidden;
-  // }
+  .message__div {
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(51, 45, 109);
+    overflow: hidden;
+    position: relative;
+
+    .message__drop {
+      position: absolute;
+      top: 0vh;
+      left: 52.5vh;
+      width: 1.3vh;
+      height: 1.3vh;
+      border-radius: 50%;
+      background-color: white;
+      border: 0.5vh solid white;
+      opacity: 0;
+    }
+    .developer__div {
+      position: absolute;
+      left: 15vh;
+      font-size: 14vh;
+      font-weight: 600;
+    }
+    .developer__dev {
+      position: absolute;
+      top: 50vh;
+      left: 0;
+      opacity: 1;
+      color: white;
+    }
+    .developer__o {
+      position: absolute;
+      left: 34.5vh;
+      top: 0vh;
+      color: white;
+      opacity: 0;
+    }
+    .developer__e {
+      position: absolute;
+      top: -15vh;
+      left: 23vh;
+      opacity: 1;
+      color: rgb(231, 22, 22);
+    }
+    .developer__l {
+      position: absolute;
+      top: 0;
+      left: 30.5vh;
+      color: rgb(231, 22, 22);
+      opacity: 0;
+    }
+    .developer__p {
+      position: absolute;
+      top: 0;
+      left: 42.5vh;
+      opacity: 0;
+      color: rgb(231, 22, 22);
+    }
+    .developer__ee {
+      position: absolute;
+      top: 0;
+      color: rgb(231, 22, 22);
+      left: 23vh;
+      z-index: 5;
+      opacity: 0;
+    }
+    .developer__r {
+      position: absolute;
+      top: 0;
+      left: 58.5vh;
+      opacity: 0;
+      color: rgb(231, 22, 22);
+    }
+  }
+  .developer__l__drop {
+    position: absolute;
+    // top: 0vh;
+    top: -53vh;
+    left: 46vh;
+    width: 1.5vh;
+    height: 52vh;
+    border: 0.5vh solid rgb(211, 23, 23);
+    border-radius: 2vh;
+    z-index: 5;
+  }
 }

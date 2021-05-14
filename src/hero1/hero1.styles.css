@@ -125,4 +125,99 @@
   line-height: 0.9;
   color: rgba(255, 255, 255, 0.3);
 }
+
+.hero__container .message__div {
+  width: 100%;
+  height: 30vh;
+  background-color: #332d6d;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero__container .message__div .message__drop {
+  position: absolute;
+  top: 0vh;
+  left: 52.5vh;
+  width: 1.3vh;
+  height: 1.3vh;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.5vh solid white;
+  opacity: 0;
+}
+
+.hero__container .message__div .developer__div {
+  position: absolute;
+  left: 15vh;
+  font-size: 14vh;
+  font-weight: 600;
+}
+
+.hero__container .message__div .developer__dev {
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  opacity: 1;
+  color: white;
+}
+
+.hero__container .message__div .developer__o {
+  position: absolute;
+  left: 34.5vh;
+  top: 0vh;
+  color: white;
+  opacity: 0;
+}
+
+.hero__container .message__div .developer__e {
+  position: absolute;
+  top: -15vh;
+  left: 23vh;
+  opacity: 1;
+  color: #e71616;
+}
+
+.hero__container .message__div .developer__l {
+  position: absolute;
+  top: 0;
+  left: 30.5vh;
+  color: #e71616;
+  opacity: 0;
+}
+
+.hero__container .message__div .developer__p {
+  position: absolute;
+  top: 0;
+  left: 42.5vh;
+  opacity: 0;
+  color: #e71616;
+}
+
+.hero__container .message__div .developer__ee {
+  position: absolute;
+  top: 0;
+  color: #e71616;
+  left: 23vh;
+  z-index: 5;
+  opacity: 0;
+}
+
+.hero__container .message__div .developer__r {
+  position: absolute;
+  top: 0;
+  left: 58.5vh;
+  opacity: 0;
+  color: #e71616;
+}
+
+.hero__container .developer__l__drop {
+  position: absolute;
+  top: -53vh;
+  left: 46vh;
+  width: 1.5vh;
+  height: 52vh;
+  border: 0.5vh solid #d31717;
+  border-radius: 2vh;
+  z-index: 5;
+}
 /*# sourceMappingURL=hero1.styles.css.map */
